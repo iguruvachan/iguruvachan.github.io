@@ -43,7 +43,7 @@ const getDirectors = function (crewList) {
 const filterVideos = function (videoList) {
   return videoList.filter(
     ({ type, site }) =>
-      (type === "Trailer" || type === "Teaser") && site === "Youtube"
+      (type === "Trailer") && site === "YouTube"
   );
 };
 
